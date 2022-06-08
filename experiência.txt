@@ -1,0 +1,20 @@
+Minha  experiência  com  TDD  foi  muito  boa.  Eu  já  havia  tido  experiência
+desenvolvendo programas em que eu definia o comportamento esperado do  código  e
+as interfaces antes de implementar o código, porém eu não escrevia os testes.
+
+Foi satisfatório usar TDD até mesmo neste projeto simples, pois  pude  trabalhar
+nos testes antes mesmo da implementação. Isto  de  fato  faz  o  desenvolvimento
+ficar mais rápido, pois "we get things done" e  temos  menos  atrasos  devido  à
+possível falta de clareza sobre como proceder a implementação. Por  exemplo,  eu
+havia me esquecido do método de Newton (o qual eu queria utilizar) e  só  depois
+de pensar um pouco  que  eu  me  lembrei;  porém,  pude  desenvolver  os  testes
+enquanto pensava na implementação.
+
+Por fim, gostaria de dizer que eu queria ter aprendido TDD  antes!  Algum  tempo
+atrás tive que fazer  um  EP  que  consistia  em  implementar  um  algoritmo  de
+encriptografia simétrico, o qual consistia de  vários  rounds  e  aplicações  de
+funções matemáticas puras. Também  tive  que  fazer  a  decriptografia,  o  qual
+consiste em aplicar as funções reversas.  Alguns  pequenos  bugs  no  código  me
+deixaram louco procurando o erro, e somente depois que eu  implementei  os  Unit
+Tests para cada função foi que eu fui capaz de perceber onde estava o  erro.  Se
+eu tivesse feito os testes antes, teria economizado muito tempo.

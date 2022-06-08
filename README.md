@@ -20,3 +20,6 @@ Por fim, para rodar os testes basta rodar o comando:
 ```python
 python src/test_sqroot.py
 ```
+
+Last but not least, escrevi um texto descrevendo minha experiência com  TDD  que
+está em [experiência.txt](./experiência.txt).
