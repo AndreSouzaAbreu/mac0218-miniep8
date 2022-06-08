@@ -11,9 +11,9 @@ def test_sqrt(tests, errortol):
         if fabs(x - result*result) > errortol:
             print(f'test {i+1} failed')
         else:
-            print(f'test {i+1} successful')
+            print(f'test {i+1:2d} successful!\t\tsqrt({x}) ~= {result:.2f}')
             passed += 1
-    print(f'\nPassed {passed}/{n}')
+    print(f'\nPassed {passed}/{n} tests')
 
 # actual test cases
 n = 10
