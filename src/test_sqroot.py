@@ -1,5 +1,6 @@
 from math import fabs
 from random import randint
+from sqroot import sqroot
 
 def test_sqrt(tests, errortol):
     passed = 0
