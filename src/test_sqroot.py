@@ -1,5 +1,5 @@
 from math import fabs
-from random import randint
+from random import randint, seed
 from sqroot import sqroot
 
 def test_sqrt(tests, errortol):
@@ -14,6 +14,9 @@ def test_sqrt(tests, errortol):
             print(f'test {i+1:2d} successful!\t\tsqrt({x}) ~= {result:.2f}')
             passed += 1
     print(f'\nPassed {passed}/{n} tests')
+
+# seed random number generator for tests to be equal across platforms
+seed(1)
 
 # actual test cases
 n = 10
